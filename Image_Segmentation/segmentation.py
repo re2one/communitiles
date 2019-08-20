@@ -172,7 +172,7 @@ for file in os.listdir(IMAGE_PATH):
     print('./segments/' + file + ' done')
 
 # writing sql load script to file
-f = open("./init_content.sql", "a")
+f = open("./init_content.sql", "w")
 f.write(INIT_CONTENT_SQL)
 f.close()
     
