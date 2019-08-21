@@ -1,0 +1,10 @@
+.container {
+  position: relative;
+}
+.segments {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.outerContainer{
+}

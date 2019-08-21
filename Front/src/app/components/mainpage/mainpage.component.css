@@ -1,0 +1,12 @@
+.example-card {
+  max-width: 400px;
+  margin: auto;
+}
+
+.cardbutton {
+  width: 120px;
+}
+
+.card{
+  text-decoration: none;
+}

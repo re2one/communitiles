@@ -1,0 +1,5 @@
+.mat-column-label {
+  flex: 0 0 100%;
+  width: 100%;
+  white-space: unset;
+}

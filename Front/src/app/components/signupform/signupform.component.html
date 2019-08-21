@@ -1,0 +1,25 @@
+<div class="example-container">
+  <form [formGroup]="signupForm" (ngSubmit)="signup()">
+    <p>
+      <mat-form-field appearance="outline">
+        <mat-label>username</mat-label>
+        <input matInput placeholder="your username" formControlName="username">
+      </mat-form-field>
+    </p>
+    <p>
+      <mat-form-field appearance="outline">
+        <mat-label>email</mat-label>
+        <input matInput placeholder="your email adress" formControlName="email">
+      </mat-form-field>
+    </p>
+    <p>
+      <mat-form-field appearance="outline">
+        <mat-label>password</mat-label>
+        <input matInput placeholder="some secret password" formControlName="password">
+      </mat-form-field>
+    </p>
+    <p>
+      <button mat-flat-button color="primary" type="submit" [disabled]="!signupForm.valid">Submit</button>
+    </p>
+  </form>
+</div>

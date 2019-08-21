@@ -1,0 +1,19 @@
+<mat-toolbar color="primary" class="mat-elevation-z8">
+  <button mat-button *ngIf="isLoggedIn()" [matMenuTriggerFor]="menu">Menu</button>
+    <mat-menu #menu="matMenu">
+      <button mat-menu-item *ngIf="isLoggedIn()" (click)="logout()">Logout</button>
+      <button mat-menu-item *ngIf="runningGame" (click)="quitGame()">Quit Game</button>
+      <button mat-menu-item *ngIf="location() === '/highscore' || location() === '/instructions' || location() === '/disclosure'" (click)="navigateBack()">Back to Menu</button>
+  </mat-menu>
+  <div class="bar-container">
+    <div class="ui" *ngIf="isLoggedIn()">Player online: {{playersOnline}}</div>
+    <div class="ui" *ngIf="runningGame">State: {{state}}</div>
+    <div *ngIf="runningGame">
+      <div class="uisub"> Time remaining: {{countdown}} seconds </div>
+      <div class="uisub"> Current score: {{score}} points </div>
+    </div>
+  </div>
+</mat-toolbar>
+<router-outlet></router-outlet>
+
+

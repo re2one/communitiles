@@ -1,0 +1,70 @@
+<div style="display: flex; flex-direction: column; margin: auto; width: 60%;">
+  <div style="display: inline-block">
+    <h1>Introduction</h1>
+    <h2>Main Menu</h2>
+    <p>This is where you land after logging in.<p>
+    <p>1) Shows the menu button. It lets you log out, navigate or quit an ongoing game.</p>
+    <p>2) Is where you can queue yourself to be paired when you're ready.</p>
+    <p>3) Leads you to the oversight of the game rules and the disclosure agreement, in case you want to study them further.</p>
+    <img title="Image 1" [src]="path + '/assets/instructions/1.png'" style="width: 100%;">
+  </div>
+  <div>
+    <h2>Pairing Screen</h2>
+    <p>Clicking the Play Button takes you into this view. The screen remains unchanged until you eventually get paired.</p>
+    <p>4) You can cancel your pairing process to restart it if you feel stuck.</p>
+    <img title="Image 2" [src]="path + '/assets/instructions/2.png'" style="width: 100%;">
+  </div>
+  <div>
+    <h2>Start of a game</h2>
+    <p>Before the game starts after you have been paired, you need to confirm that you are ready.</p>
+    <p>5) Hit the 'Go!' button to let your partner know you're ready.
+      The Game will start after both players have hit the button and the Timer (13) will start to run. Better hurry!</p>
+    <img title="Image 3" [src]="path + '/assets/instructions/3.png'" style="width: 100%;">
+  </div>
+  <div>
+    <h2>Game Screen: Recommender</h2>
+    <p>A recommending and a guessing Player play together. The recommender is the first one to move in a game. Each player has 20 seconds to move.</p>
+    <p>6) A segmented image is presented to the recommender. He has to reveal the whole image piece by piece to the guesser, who starts with an empty image.
+    Selected segments turn fully visible, while the others stay opact to a certain degree.</p>
+    <p>7) The recommender has to reveal the segments in a manner, that the guesser can guess one of the labels presented to the recommender as quick as possible.
+    Every unsuccessful guess decreases the amount of points (13) both players get assigned for the round.</p>
+    <p>8) The both players can see past guesses in this table.</p>
+    <p>9) After selecting a segment (6), the recommender can pitch it to the guesser by clicking the then enabled 'recommend' button.</p>
+    <p>We further enable the recommending player to accept a guess, if its really close or just typed wrong. Dont do this lightheartedly!</p>
+    <img title="Image 4" [src]="path + '/assets/instructions/4.png'" style="width: 100%;">
+  </div>
+  <div>
+    <h2>Game Screen: Guesser</h2>
+    <p>After a pitch by the recommender, the guesser has three guesses for the label to be found.</p>
+    <p>10) Shows the already revealed segments.</p>
+    <p>11) To guess, the guesser has to enter his guess in the form field and submit it via the button.
+    If he is completely clueless, he can request another segment via the 'show one more' button, although it will cost the remainder of guesses in points.</p>
+    <p>12) A popup notifies both players if the gamestate, which is also visible in the top bar, changes.</p>
+    <img title="Image 5" [src]="path + '/assets/instructions/5.png'" style="width: 100%;">
+  </div>
+  <div>
+    <h2>Further functions</h2>
+    <p>12) Both players can quit a match if they find it too hard.</p>
+    <p>13) Shows the timer and the score elements.</p>
+    <img title="Image 6" [src]="path + '/assets/instructions/6.png'" style="width: 100%;">
+  </div>
+  <div>
+    <h2>Game End</h2>
+    <p>14) the game ends if i) The guesser guesses a correct label, or submits a close enough guess that the recommender accepts,
+    ii) One player logs out or quits the game or iii) The time runs out. The recommender will reveal up to 25 segments. After that,
+    the whole image will be revealed and the guesser has three final guesses.</p>
+    <p>Points will be awarded only if the game is successfully finished.</p>
+    <p>After the game has ended with a positive or negative result, hitting the 'End Game' button will redirect you to the main menu.
+    You can then hit the 'Play' button to start the next match.</p>
+    <img title="Image 7" [src]="path + '/assets/instructions/7.png'" style="width: 100%;">
+  </div>
+  <div>
+    <h2>Additional Advice</h2>
+    <p>
+      The configuration of the webserver will let a page refresh result in a 404 error. Please try to not refresh the app, you dont need to.
+    </p>
+    <p>
+      Use the built in controls to navigate within the app as the backwards button in the browser might lead to strange behaviour too.
+    </p>
+  </div>
+</div>

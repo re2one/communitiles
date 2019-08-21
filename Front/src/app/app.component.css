@@ -1,0 +1,15 @@
+.bar-container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ui {
+  text-align: center;
+  border: 2px white;
+}
+
+.uisub {
+  font-size: 14px;
+}

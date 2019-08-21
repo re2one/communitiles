@@ -1,0 +1,5 @@
+<div [class.mat-elevation-z8]="true" (click)="onClick($event)" [style.width.px]="dimension.width" [style.height.px]="dimension.height">
+  <div class="container" *ngFor="let segment of segments">
+    <img class="segments" [style.opacity]="opacityMap.get(segment.segment)" [src]="(URL+segment.segment | image | async) || ''">
+  </div>
+</div>
