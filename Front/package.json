@@ -3,11 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "startpot": "ng serve --proxy-config proxy_pot.conf.json --host 0.0.0.0 --configuration=pot",
     "startlocal": "ng serve --proxy-config proxy_local.conf.json",
-    "startmaus": "ng serve --proxy-config proxy_maus.conf.json --host 0.0.0.0 --configuration=maus",
-    "startswitch": "ng serve --proxy-config proxy_switch.conf.json --host 0.0.0.0 --configuration=switch",
-    "startkrul": "ng serve --proxy-config proxy_krul.conf.json --host 0.0.0.0 --configuration=krul",
     "build": "ng build",
     "buildprod": "ng build --output-path=./dist/out --configuration krul --base-href=/~/re2one/",
     "test": "ng test",
