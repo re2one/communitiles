@@ -18,12 +18,12 @@
     "fs": "0.0.1-security",
     "http-errors": "~1.6.2",
     "jsonwebtoken": "^8.4.0",
-    "mariadb": "^2.0.2-rc",
+    "mariadb": "^2.1.0",
     "morgan": "~1.9.0",
-    "pm2": "^3.4.0",
-    "pug": "^2.0.3",
-    "rxjs": "^6.3.3",
-    "rxjs-compat": "^6.3.3",
+    "pm2": "^3.5.1",
+    "pug": "^2.0.4",
+    "rxjs": "^6.5.2",
+    "rxjs-compat": "^6.5.2",
     "socket.io": "^2.2.0",
     "update": "^0.7.4"
   }
