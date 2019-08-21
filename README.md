@@ -65,6 +65,9 @@ $mysql -u root -p < <<path-to-project>>/communitiles/DB/Scripts/init.sql
 $mysql -u root -p < <<path-to-project>>/communitiles/DB/Scripts/init_content.sql
 ```
 
+The image below shows the general database layout:
+![Entity Relationship Diagram](https://github.com/re2one/communitiles/blob/master/entity_relationship_diagram.png)
+
 #### Writing the necessary Config Files
 
 ##### Database Configuration Within The Backend
