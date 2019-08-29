@@ -14,7 +14,7 @@ Please notice that the issues and todos as well as the setup with docker contain
 
 ## Setup
 
-U are advised to take the following steps after downloading the git to setup the applications (Frontend, Backend, Database).
+You are advised to take the following steps after downloading the git to setup the applications (Frontend, Backend, Database).
 
 ### Without [Docker][docker]
 
